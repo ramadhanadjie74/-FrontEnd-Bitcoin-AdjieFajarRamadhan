@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;800&display=swap');
+
+*{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Prompt', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+
+.navlist{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: rosybrown solid 2px;
+    border-radius: 5px;
+}
+ul{
+    width:25rem;
+    list-style: none;
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+li{
+    margin-left: 2rem;
+    padding: .2rem;
+    color: black;
+}
+
+li:hover{
+    background-color: #333;
+    color: #fefefe;
+}
